@@ -1,0 +1,375 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 61418B62
+P 950 1500
+AR Path="/61418B62" Ref="J?"  Part="1" 
+AR Path="/6140A369/61418B62" Ref="J1"  Part="1" 
+F 0 "J1" H 1058 1781 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 1058 1690 50  0000 C CNN
+F 2 "" H 950 1500 50  0001 C CNN
+F 3 "~" H 950 1500 50  0001 C CNN
+	1    950  1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61418B68
+P 1500 1200
+AR Path="/61418B68" Ref="#PWR?"  Part="1" 
+AR Path="/6140A369/61418B68" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 1500 950 50  0001 C CNN
+F 1 "GND" H 1505 1027 50  0000 C CNN
+F 2 "" H 1500 1200 50  0001 C CNN
+F 3 "" H 1500 1200 50  0001 C CNN
+	1    1500 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1400 1150 1200
+Wire Wire Line
+	1150 1200 1500 1200
+$Comp
+L power:+9V #PWR?
+U 1 1 61418B70
+P 1700 1500
+AR Path="/61418B70" Ref="#PWR?"  Part="1" 
+AR Path="/6140A369/61418B70" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 1700 1350 50  0001 C CNN
+F 1 "+9V" H 1715 1673 50  0000 C CNN
+F 2 "" H 1700 1500 50  0001 C CNN
+F 3 "" H 1700 1500 50  0001 C CNN
+	1    1700 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1500 1150 1500
+Text GLabel 1300 1600 2    50   Input ~ 0
+FUZZ_FACE_IN
+Wire Wire Line
+	1300 1600 1150 1600
+Text GLabel 1300 1700 2    50   Input ~ 0
+FUZZ_FACE_OUT
+Wire Wire Line
+	1300 1700 1150 1700
+Text GLabel 1550 2650 0    50   Input ~ 0
+FUZZ_FACE_IN
+$Comp
+L Device:Q_NPN_CBE Q?
+U 1 1 61418B82
+P 2600 2650
+AR Path="/61418B82" Ref="Q?"  Part="1" 
+AR Path="/6140A369/61418B82" Ref="Q2"  Part="1" 
+F 0 "Q2" H 2791 2696 50  0000 L CNN
+F 1 "Q_NPN_CBE" H 2791 2605 50  0000 L CNN
+F 2 "pedal-component-footprint:Transistor_KTYU-3-6_CBE_d11.7mm" H 2800 2750 50  0001 C CNN
+F 3 "~" H 2600 2650 50  0001 C CNN
+	1    2600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM RV?
+U 1 1 61418B8E
+P 2700 2000
+AR Path="/61418B8E" Ref="RV?"  Part="1" 
+AR Path="/6140A369/61418B8E" Ref="RV3"  Part="1" 
+F 0 "RV3" H 2631 2046 50  0000 R CNN
+F 1 "100K" H 2631 1955 50  0000 R CNN
+F 2 "MBv3 potentiometers:16MM_B.MOUNT_BANZAI" H 2700 2000 50  0001 C CNN
+F 3 "~" H 2700 2000 50  0001 C CNN
+	1    2700 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2000 2850 2150
+Wire Wire Line
+	2850 2150 2700 2150
+Connection ~ 2700 2150
+$Comp
+L Device:R R?
+U 1 1 61418B97
+P 2700 3300
+AR Path="/61418B97" Ref="R?"  Part="1" 
+AR Path="/6140A369/61418B97" Ref="R3"  Part="1" 
+F 0 "R3" H 2770 3346 50  0000 L CNN
+F 1 "100K" H 2770 3255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2630 3300 50  0001 C CNN
+F 3 "~" H 2700 3300 50  0001 C CNN
+	1    2700 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 2650 1700 2650
+Wire Wire Line
+	2000 2650 2200 2650
+Wire Wire Line
+	2200 2650 2200 3300
+Wire Wire Line
+	2200 3300 2550 3300
+Connection ~ 2200 2650
+Wire Wire Line
+	2200 2650 2400 2650
+Wire Wire Line
+	2850 3300 3350 3300
+Wire Wire Line
+	3350 3300 3350 2500
+Wire Wire Line
+	3500 3550 3500 3700
+Wire Wire Line
+	3500 3700 3350 3700
+$Comp
+L Device:R_POT RV?
+U 1 1 61418BA7
+P 3350 3550
+AR Path="/61418BA7" Ref="RV?"  Part="1" 
+AR Path="/6140A369/61418BA7" Ref="RV5"  Part="1" 
+F 0 "RV5" H 3280 3596 50  0000 R CNN
+F 1 "1K" H 3280 3505 50  0000 R CNN
+F 2 "MBv3 potentiometers:16MM_B.MOUNT_BANZAI" H 3350 3550 50  0001 C CNN
+F 3 "~" H 3350 3550 50  0001 C CNN
+	1    3350 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 3700
+$Comp
+L Device:CP Cp?
+U 1 1 61418BAE
+P 3850 3550
+AR Path="/61418BAE" Ref="Cp?"  Part="1" 
+AR Path="/6140A369/61418BAE" Ref="Cp3"  Part="1" 
+F 0 "Cp3" V 4105 3550 50  0000 C CNN
+F 1 "22u" V 4014 3550 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3888 3400 50  0001 C CNN
+F 3 "~" H 3850 3550 50  0001 C CNN
+	1    3850 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 3300
+Wire Wire Line
+	3350 3700 3350 3800
+Wire Wire Line
+	3350 3800 3850 3800
+Wire Wire Line
+	3850 3800 3850 3700
+Connection ~ 3350 3800
+Wire Wire Line
+	3350 3800 3350 4000
+Wire Wire Line
+	3850 3400 3850 3300
+Wire Wire Line
+	3850 3300 3350 3300
+Wire Wire Line
+	3350 3300 3350 3400
+$Comp
+L Device:R_POT_TRIM RV?
+U 1 1 61418BBD
+P 3350 1750
+AR Path="/61418BBD" Ref="RV?"  Part="1" 
+AR Path="/6140A369/61418BBD" Ref="RV4"  Part="1" 
+F 0 "RV4" H 3281 1796 50  0000 R CNN
+F 1 "100K" H 3281 1705 50  0000 R CNN
+F 2 "MBv3 potentiometers:16MM_B.MOUNT_BANZAI" H 3350 1750 50  0001 C CNN
+F 3 "~" H 3350 1750 50  0001 C CNN
+	1    3350 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1750 3500 1900
+Wire Wire Line
+	3500 1900 3350 1900
+Wire Wire Line
+	3350 2100 3350 1900
+Connection ~ 3350 1900
+$Comp
+L power:+9V #PWR?
+U 1 1 61418BC7
+P 3350 950
+AR Path="/61418BC7" Ref="#PWR?"  Part="1" 
+AR Path="/6140A369/61418BC7" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 3350 800 50  0001 C CNN
+F 1 "+9V" H 3365 1123 50  0000 C CNN
+F 2 "" H 3350 950 50  0001 C CNN
+F 3 "" H 3350 950 50  0001 C CNN
+	1    3350 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61418BCD
+P 3350 1200
+AR Path="/61418BCD" Ref="R?"  Part="1" 
+AR Path="/6140A369/61418BCD" Ref="R4"  Part="1" 
+F 0 "R4" H 3420 1246 50  0000 L CNN
+F 1 "470" H 3420 1155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3280 1200 50  0001 C CNN
+F 3 "~" H 3350 1200 50  0001 C CNN
+	1    3350 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3350 950  3350 1000
+Wire Wire Line
+	3350 1350 3350 1450
+Wire Wire Line
+	3350 1000 2700 1000
+Wire Wire Line
+	2700 1000 2700 1850
+Connection ~ 3350 1000
+Wire Wire Line
+	3350 1000 3350 1050
+Wire Wire Line
+	2700 2150 2700 2300
+$Comp
+L power:GND #PWR?
+U 1 1 61418BDA
+P 3350 4000
+AR Path="/61418BDA" Ref="#PWR?"  Part="1" 
+AR Path="/6140A369/61418BDA" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 3350 3750 50  0001 C CNN
+F 1 "GND" H 3355 3827 50  0000 C CNN
+F 2 "" H 3350 4000 50  0001 C CNN
+F 3 "" H 3350 4000 50  0001 C CNN
+	1    3350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61418BE0
+P 2700 2950
+AR Path="/61418BE0" Ref="#PWR?"  Part="1" 
+AR Path="/6140A369/61418BE0" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 2700 2700 50  0001 C CNN
+F 1 "GND" H 2705 2777 50  0000 C CNN
+F 2 "" H 2700 2950 50  0001 C CNN
+F 3 "" H 2700 2950 50  0001 C CNN
+	1    2700 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2950 2700 2850
+Wire Wire Line
+	3050 2300 2700 2300
+Connection ~ 2700 2300
+Wire Wire Line
+	2700 2300 2700 2450
+$Comp
+L Device:C C?
+U 1 1 61418BEA
+P 3850 1450
+AR Path="/61418BEA" Ref="C?"  Part="1" 
+AR Path="/6140A369/61418BEA" Ref="C5"  Part="1" 
+F 0 "C5" V 3598 1450 50  0000 C CNN
+F 1 "10n" V 3689 1450 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 3888 1300 50  0001 C CNN
+F 3 "~" H 3850 1450 50  0001 C CNN
+	1    3850 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 61418BF0
+P 4450 1600
+AR Path="/61418BF0" Ref="RV?"  Part="1" 
+AR Path="/6140A369/61418BF0" Ref="RV6"  Part="1" 
+F 0 "RV6" H 4380 1646 50  0000 R CNN
+F 1 "A500K" H 4380 1555 50  0000 R CNN
+F 2 "MBv3 potentiometers:16MM_B.MOUNT_BANZAI" H 4450 1600 50  0001 C CNN
+F 3 "~" H 4450 1600 50  0001 C CNN
+	1    4450 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1450 3700 1450
+Connection ~ 3350 1450
+Wire Wire Line
+	3350 1450 3350 1600
+Wire Wire Line
+	4000 1450 4450 1450
+$Comp
+L power:GND #PWR?
+U 1 1 61418BFA
+P 4450 1900
+AR Path="/61418BFA" Ref="#PWR?"  Part="1" 
+AR Path="/6140A369/61418BFA" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 4450 1650 50  0001 C CNN
+F 1 "GND" H 4455 1727 50  0000 C CNN
+F 2 "" H 4450 1900 50  0001 C CNN
+F 3 "" H 4450 1900 50  0001 C CNN
+	1    4450 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1900 4450 1750
+Text GLabel 4950 1600 2    50   Input ~ 0
+FUZZ_FACE_OUT
+Wire Wire Line
+	4600 1600 4950 1600
+$Comp
+L Device:CP Cp?
+U 1 1 61418C03
+P 3850 1000
+AR Path="/61418C03" Ref="Cp?"  Part="1" 
+AR Path="/6140A369/61418C03" Ref="Cp2"  Part="1" 
+F 0 "Cp2" V 4105 1000 50  0000 C CNN
+F 1 "47u" V 4014 1000 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3888 850 50  0001 C CNN
+F 3 "~" H 3850 1000 50  0001 C CNN
+	1    3850 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3350 1000 3700 1000
+$Comp
+L power:GND #PWR?
+U 1 1 61418C0A
+P 4150 1000
+AR Path="/61418C0A" Ref="#PWR?"  Part="1" 
+AR Path="/6140A369/61418C0A" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 4150 750 50  0001 C CNN
+F 1 "GND" H 4155 827 50  0000 C CNN
+F 2 "" H 4150 1000 50  0001 C CNN
+F 3 "" H 4150 1000 50  0001 C CNN
+	1    4150 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1000 4150 1000
+$Comp
+L Device:Q_NPN_CBE Q?
+U 1 1 61418B88
+P 3250 2300
+AR Path="/61418B88" Ref="Q?"  Part="1" 
+AR Path="/6140A369/61418B88" Ref="Q3"  Part="1" 
+F 0 "Q3" H 3441 2346 50  0000 L CNN
+F 1 "Q_NPN_CBE" H 3441 2255 50  0000 L CNN
+F 2 "pedal-component-footprint:Transistor_KTYU-3-6_CBE_d11.7mm" H 3450 2400 50  0001 C CNN
+F 3 "~" H 3250 2300 50  0001 C CNN
+	1    3250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C4
+U 1 1 613C96E3
+P 1850 2650
+F 0 "C4" V 1595 2650 50  0000 C CNN
+F 1 "2.2u" V 1686 2650 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1888 2500 50  0001 C CNN
+F 3 "~" H 1850 2650 50  0001 C CNN
+	1    1850 2650
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
