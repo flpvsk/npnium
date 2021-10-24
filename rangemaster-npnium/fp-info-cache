@@ -1,4 +1,4 @@
-14496388274652288
+14499658414917288
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -52846,191 +52846,191 @@ MBv3 SMD
 RESISTOR_C0805
 <b>CAPACITOR</b><p>
 chip
-0
+
 0
 2
 2
 MBv3 SMD
 RESISTOR_C1206
 <b>CAPACITOR</b><p>
-0
-0
+chip
+
 0
 2
 2
 MBv3 SMD
 RESISTOR_R0603
-0
-0
-0
+<b>RESISTOR</b><p>
+chip
+
 0
 2
 2
 MBv3 SMD
-0
-0
-0
+TRANSISTOR_SOT23-BEC
+TO-236 ITT Intermetall
+
 0
 3
 3
 MBv3 caps-elec
-50
-0
-0
-0
-2
-2
-MBv3 caps-elec
-50
-0
-0
+050.AXIAL
+<b>6mm diameter, 22.86mm spacing</b>
+
 0
 2
 2
 MBv3 caps-elec
-50
-0
-0
-0
-2
-2
-MBv3 caps-elec
-80
-0
-0
+050.FLAT
+<b>5mm diameter, 2.5mm lead spacing, flat-to-PCB</b>
+
 0
 2
 2
 MBv3 caps-elec
-501
-0
-0
-0
-2
-2
-MBv3 caps-elec
-502
-0
-0
+050.TANT
+0.1" (2.54mm) spacing, tantalum
+
 0
 2
 2
 MBv3 caps-elec
-503
-0
-0
-0
-2
-2
-MBv3 caps-elec
-504
-0
-0
+080.FLAT
+0.2" (5.08mm) spacing, flat-to-PCB
+
 0
 2
 2
 MBv3 caps-elec
-505
-0
-0
-0
-2
-2
-MBv3 caps-elec
-506
-0
-0
+0501
+0.08" (2mm) spacing
+
 0
 2
 2
 MBv3 caps-elec
-631
-0
-0
-0
-2
-2
-MBv3 caps-elec
-632
-0
-0
+0502
+0.1" (2.54mm) spacing
+
 0
 2
 2
 MBv3 caps-elec
-633
-0
-0
-0
-2
-2
-MBv3 caps-elec
-634
-0
-0
+0503
+0.1" (2.54mm) spacing, for routing 10mil trace b/w pads
+
 0
 2
 2
 MBv3 caps-elec
-635
-0
-0
-0
-2
-2
-MBv3 caps-elec
-801
-0
-0
+0504
+0.2" (5.08mm) spacing
+
 0
 2
 2
 MBv3 caps-elec
-802
-0
-0
-0
-2
-2
-MBv3 caps-elec
-803
-0
-0
+0505
+0.3" (7.62mm) spacing
+
 0
 2
 2
 MBv3 caps-elec
-804
-0
-0
+0506
+0.4" (10.16mm) spacing
+
 0
 2
 2
 MBv3 caps-elec
+0631
+0.08" (2mm) spacing
+
 0
-5
+2
+2
+MBv3 caps-elec
+0632
+0.1" (2.54mm) spacing
+
 0
+2
+2
+MBv3 caps-elec
+0633
+0.2" (5.08mm) spacing
+
+0
+2
+2
+MBv3 caps-elec
+0634
+0.3" (7.62mm) spacing
+
+0
+2
+2
+MBv3 caps-elec
+0635
+0.4" (10.62mm) spacing
+
+0
+2
+2
+MBv3 caps-elec
+0801
+0.1" (2.54mm) spacing
+
+0
+2
+2
+MBv3 caps-elec
+0802
+0.2" (5.08mm) spacing
+
+0
+2
+2
+MBv3 caps-elec
+0803
+0.3" (7.62mm) spacing
+
+0
+2
+2
+MBv3 caps-elec
+0804
+0.4" (10.16mm) spacing
+
+0
+2
+2
+MBv3 caps-elec
+NP
+5mm diameter, 0.2" (2.54mm) scpaing, Non/Bi-Polar caps
+
 0
 2
 2
 MBv3 caps-film
-0
-0
-0
+0.1%22
+0.1" (2.54mm) spacing
+
 0
 2
 2
 MBv3 caps-film
-0
-0
-0
+0.2%22.LRG
+0.2" (5.08mm) spacing
+<p>
 <b>1uF caps</b>
 
 0
 2
 2
-0
-0
+MBv3 caps-film
+0.2%22.MED
 0.2" (5.08mm) spacing
 <p>
 <b>220n-680n caps</b>
@@ -53042,23 +53042,23 @@ MBv3 caps-film
 0.2%22.SML
 0.2" (5.08mm) spacing
 <p>
-0
-10
-0
+<b> 
+10pf - 180n</b>
+
 0
 2
 2
 MBv3 caps-film
-0
-0
-0
+0.2_22.LRG
+0.2" (5.08mm) spacing
+<p>
 <b>1uF caps</b>
 
 0
 2
 2
-0
-0
+MBv3 caps-film
+0.2_22.MED
 0.2" (5.08mm) spacing
 <p>
 <b>220n-680n caps</b>
@@ -53070,681 +53070,681 @@ MBv3 caps-film
 0.2_22.SML
 0.2" (5.08mm) spacing
 <p>
-0
-10
-0
+<b> 
+10pf - 180n</b>
+
 0
 2
 2
 MBv3 caps-film
-0
-0
-0
+0.3%22
+0.3" (7.62mm) spacing
+
 0
 2
 2
 MBv3 caps-film
-0
-0
-0
+0.4%22
+0.4" (10.16mm) spacing
+
 0
 2
 2
 MBv3 caps-film
-0
-0
-0
+0.7%22.AX.1
+0.7" (17.78mm) spacing, axial caps
+
 0
 2
 2
 MBv3 caps-film
-0
-0
-0
+0.7%22.AX.2
+0.7" (17.78mm) spacing, axial,  with radial 5mm alternate
+
 0
 4
 4
 MBv3 diodes
-3
-0
-0
+3MM_1
+
+
 0
 2
 2
 MBv3 diodes
-3
-0
-0
+3MM_2
+
+
 0
 2
 2
 MBv3 diodes
-3
-0
-0
+3MM_FLAT
+
+
 0
 2
 2
 MBv3 diodes
-3
-0
-3
+3MM_IO
+<B>LED</B><p>
+3 mm, round
 
 0
 2
 2
-0
-5
-0
-
-0
-4
-4
-0
-0
-0
-
-0
-2
-2
-0
-0
-0
-
-0
-3
-3
-0
-0
-0
-
-0
-2
-2
-0
-0
-0
-
-0
-2
-2
-0
-0
-0
-
-0
-2
-2
-0
-0
-0
-
-0
-2
-2
-0
-0
-0
-
-0
-2
-2
-0
-0
-0
-
-0
-2
-2
-0
-0
-0
-
-0
-2
-2
-0
-3
-0
-
-0
-0
-0
-0
-3
-0
-
-0
-0
-0
-0
-125
-0
-
-0
-0
-0
-0
-125
-0
-
-0
-0
-0
-0
-1550
-0
-
-0
-0
-0
-0
-1590
-0
-
-0
-0
-0
-0
-1590
-0
-
-0
-0
-0
-0
-1590
-0
-
-0
-0
-0
-0
-1590
-0
-
-0
-0
-0
-0
-1590
-0
-
-0
-0
-0
-0
-1590
-0
-
-0
-0
-0
-0
-1590
-0
-
-0
-0
-0
-0
-1590
-0
-
-0
-0
-0
-0
-1590
-0
-
-0
-0
-0
-0
-1790
-0
-
-0
-0
-0
-0
-0
-0
-
-0
-0
-0
-0
-0
-0
-
-0
-0
-0
-0
-0
-0
-
-0
-0
-0
-0
-0
-0
-
-0
-0
-0
-0
-0
-0
-
-0
-0
-0
-0
-0
-0
-
-0
-0
-0
-0
-0
-0
-
-0
-0
-0
-0
-0
-0
-
-0
-0
-0
-0
-0
-0
-
-0
-0
-0
-0
-0
-0
-
-0
-0
-0
-0
-5
-0
-
-0
-2
-2
-0
-4
-0
-
-0
-4
-4
-0
-4
-0
-
-0
-4
-4
-0
-5
-0
-
-0
-5
-5
-0
-5
-0
-
-0
-5
-5
-0
-6
-0
-
-0
-6
-6
-0
-6
-0
-
-0
-6
-6
-0
-8
-0
-
-0
-8
-8
-0
-10
-0
-
-0
-10
-10
-0
-0
-0
-
-0
-4
-4
-0
-0
-0
-
-0
-31
-31
-0
-0
-0
-
-0
-7
-7
-0
-0
-0
-
-0
-6
-6
-0
-0
-0
-
-0
-10
-10
-0
-0
-0
-
-0
-18
-18
-0
-0
-0
-
-0
-4
-4
-0
-0
-0
-
-0
-6
-6
-0
-0
-0
-
-0
-8
-8
-0
-0
-0
-
-0
-14
-14
-0
-0
-0
-
-0
-8
-8
-0
-0
-0
-
-0
-16
-16
-0
-0
-0
-
-0
-24
-24
-0
-0
-0
-
-0
-8
-8
-0
-0
-0
-
-0
-28
-28
-0
-0
-0
-NS Package M08A
-
-0
-8
-8
-0
-0
-<b>Small Outline package</b> 150 mil
-
-0
-14
-14
-0
-0
-<b>Small Outline package</b> 150 mil
-
-0
-16
-16
-0
-0
-<b>SMALL OUTLINE INTEGRATED CIRCUIT</b><p>
-wide body 7.5 mm/JEDEC MS-013AA
-
-0
-16
-16
-0
-SOP24
-<b>SMALL OUTLINE PACKAGE</b>
-
-0
-24
-24
-0
-2PADS
-
-
-0
-2
-2
-0
-2PADS_TS
-
-
-0
-2
-2
-0
-3PADS
-
-
-0
-3
-3
-0
-4PADS
+MBv3 diodes
+5MM-RGB
 
 
 0
 4
 4
-0
-AC
+MBv3 diodes
+BI-PIN
 
 
 0
 2
 2
-0
+MBv3 diodes
 DC_JACK
 
 
 0
 3
 3
-0
-DC_TRS
-
-
-0
-3
-3
-0
-DC_TS
-
+MBv3 diodes
+DO35-2
+<b>DO-35 0.2" pad spacing</b>
 
 0
 2
 2
+MBv3 diodes
+DO35-3
+<B>DO-35 0.3" spacing</B>
+
 0
-LOPRO_SIDE
+2
+2
+MBv3 diodes
+DO35-4
+<B>DO-35 0.4" spacing</B>
+
+0
+2
+2
+MBv3 diodes
+DO41-1
+<b>DO-41 0.1" pad spacing, vertical</b>
+
+0
+2
+2
+MBv3 diodes
+DO41-2
+<b>DO-41 0.2" pad spacing</b>
+
+0
+2
+2
+MBv3 diodes
+DO41-3
+<b>DO-41 0.3" pad spacing</b>
+
+0
+2
+2
+MBv3 diodes
+DO41-4
+<b>DO-41 0.4" pad spacing</b>
+
+0
+2
+2
+MBv3 enclosures
+3PDT
 
 
 0
 0
 0
+MBv3 enclosures
+3PDT_LOWPRO
+
+
 0
+0
+0
+MBv3 enclosures
+125B
+
+
+0
+0
+0
+MBv3 enclosures
+125BB
+
+
+0
+0
+0
+MBv3 enclosures
+1550P
+
+
+0
+0
+0
+MBv3 enclosures
+1590A
+
+
+0
+0
+0
+MBv3 enclosures
+1590B
+
+
+0
+0
+0
+MBv3 enclosures
+1590BB
+
+
+0
+0
+0
+MBv3 enclosures
+1590BB_TALL
+
+
+0
+0
+0
+MBv3 enclosures
+1590B_GUIDE
+
+
+0
+0
+0
+MBv3 enclosures
+1590DD
+
+
+0
+0
+0
+MBv3 enclosures
+1590G
+
+
+0
+0
+0
+MBv3 enclosures
+1590LB
+
+
+0
+0
+0
+MBv3 enclosures
+1590Y
+
+
+0
+0
+0
+MBv3 enclosures
+1790NS
+
+
+0
+0
+0
+MBv3 enclosures
+DC_DRILL
+
+
+0
+0
+0
+MBv3 enclosures
+DC_TOP
+
+
+0
+0
+0
+MBv3 enclosures
+LED
+
+
+0
+0
+0
+MBv3 enclosures
 LOPRO_TOP
 
 
 0
 0
 0
+MBv3 enclosures
+LUMBURG_DRILL
+
+
 0
+0
+0
+MBv3 enclosures
+LUMBURG_SIDE
+
+
+0
+0
+0
+MBv3 enclosures
+LUMBURG_TOP
+
+
+0
+0
+0
+MBv3 enclosures
+MOMENTARY
+
+
+0
+0
+0
+MBv3 enclosures
+MONO_ENCLOSED
+
+
+0
+0
+0
+MBv3 enclosures
+WAH
+
+
+0
+0
+0
+MBv3 fuses
+5MM
+
+
+0
+2
+2
+MBv3 headers
+4-HDR
+
+
+0
+4
+4
+MBv3 headers
+4-PIN
+
+
+0
+4
+4
+MBv3 headers
+5-HDR
+
+
+0
+5
+5
+MBv3 headers
+5-PIN
+
+
+0
+5
+5
+MBv3 headers
+6-HDR
+
+
+0
+6
+6
+MBv3 headers
+6-PIN
+
+
+0
+6
+6
+MBv3 headers
+8-PIN
+
+
+0
+8
+8
+MBv3 headers
+10-PIN
+
+
+0
+10
+10
+MBv3 inductors
+IND.1
+
+
+0
+4
+4
+MBv3 inductors
+IND.2
+
+
+0
+31
+31
+MBv3 integrated_circuits
+BTDR-1
+
+
+0
+7
+7
+MBv3 integrated_circuits
+BTDR-2
+
+
+0
+6
+6
+MBv3 integrated_circuits
+BTDR-3
+
+
+0
+10
+10
+MBv3 integrated_circuits
+DIL18
+
+
+0
+18
+18
+MBv3 integrated_circuits
+DIP04
+
+
+0
+4
+4
+MBv3 integrated_circuits
+DIP06
+<b>Dual In Line Package</b>
+
+0
+6
+6
+MBv3 integrated_circuits
+DIP08
+<b>Dual In Line Package</b>
+
+0
+8
+8
+MBv3 integrated_circuits
+DIP14.1
+<b>Dual In Line Package</b>
+
+0
+14
+14
+MBv3 integrated_circuits
+DIP14.2
+<b>For BBD such as the MN3005 and MN3205</b>
+
+0
+8
+8
+MBv3 integrated_circuits
+DIP16
+<b>Dual In Line Package</b>
+
+0
+16
+16
+MBv3 integrated_circuits
+DIP24
+<b>Dual In Line Package</b>
+
+0
+24
+24
+MBv3 integrated_circuits
+SIL08
+
+
+0
+8
+8
+MBv3 integrated_circuits
+SO1C28
+
+
+0
+28
+28
+MBv3 integrated_circuits
+SO08
+<b>Small Outline Package 8</b><br>
+NS Package M08A
+
+0
+8
+8
+MBv3 integrated_circuits
+SO14
+<b>Small Outline package</b> 150 mil
+
+0
+14
+14
+MBv3 integrated_circuits
+SO16
+<b>Small Outline package</b> 150 mil
+
+0
+16
+16
+MBv3 integrated_circuits
+SO16W
+<b>SMALL OUTLINE INTEGRATED CIRCUIT</b><p>
+wide body 7.5 mm/JEDEC MS-013AA
+
+0
+16
+16
+MBv3 integrated_circuits
+SOP24
+<b>SMALL OUTLINE PACKAGE</b>
+
+0
+24
+24
+MBv3 jacks
+2PADS
+
+
+0
+2
+2
+MBv3 jacks
+2PADS_TS
+
+
+0
+2
+2
+MBv3 jacks
+3PADS
+
+
+0
+3
+3
+MBv3 jacks
+4PADS
+
+
+0
+4
+4
+MBv3 jacks
+AC
+
+
+0
+2
+2
+MBv3 jacks
+DC_JACK
+
+
+0
+3
+3
+MBv3 jacks
+DC_TRS
+
+
+0
+3
+3
+MBv3 jacks
+DC_TS
+
+
+0
+2
+2
+MBv3 jacks
+LOPRO_SIDE
+
+
+0
+0
+0
+MBv3 jacks
+LOPRO_TOP
+
+
+0
+0
+0
+MBv3 jacks
 TRS.2
 <b>Neutrik Slim Jack NRJ6HF-1</b>
 
 0
 6
 6
-0
+MBv3 jacks
 TRS_SW
 
 
 0
 6
 6
-0
+MBv3 jacks
 TS_SW
 
 
 0
 4
 4
-0
+MBv3 optical
 5C3
 
 
 0
 4
 4
-0
+MBv3 optical
 5C3.2
 
 
 0
 5
 5
-0
+MBv3 optical
 DIP4
 
 
 0
 4
 4
-0
+MBv3 optical
 DIP6
 
 
 0
 6
 6
-0
+MBv3 optical
 LDR1
 0.1" (2.54mm) Spacing
 
 0
 2
 2
-0
+MBv3 optical
 LDR2
 0.15" (3.81mm) Spacing
 
 0
 2
 2
-0
+MBv3 optical
 LDR3
 0.2" (5.08mm) Spacing
 
 0
 2
 2
-0
+MBv3 optical
 LDR4
 0.1" (2.54mm) Spacing, Angled
 
 0
 2
 2
-0
+MBv3 optical
 SOIC6
 
 
 0
 6
 6
-0
+MBv3 ota
 DIL16
 <b>Dual In Line Package</b>
 
 0
 16
 16
-0
+MBv3 ota
 SO16
 <b>SMALL OUTLINE INTEGRATED CIRCUIT</b><p>
 body 3.9 mm/JEDEC MS-012AC
@@ -53756,58 +53756,58 @@ MBv3 potentiometers
 9MM_DUALGANG
 <b>9mm / PC Mount / Dual-Gang</b>
 <p>
-0
-0
+<a href="http://smallbear-electronics.mybigcommerce.com/alpha-dual-gang-9mm-pc-mount/">http://smallbear-electronics.mybigcommerce.com/alpha-dual-gang-9mm-pc-mount/</a>
+
 0
 6
 6
 MBv3 potentiometers
 9MM_LEGACY
-0
-0
+
+
 0
 3
 3
 MBv3 potentiometers
 9MM_METAL_SHAFT
-0
-0
-0
+<b>9mm / Right-Angle /  PC Mount / Metal Shaft</b>
+<p>
+<a href="http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-9mm-right-angle-pc-mount/">http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-9mm-right-angle-pc-mount/</a>
 
 0
 5
 3
-0
-9
-0
+MBv3 potentiometers
+9MM_PLASTIC_SHAFT
+<b>9mm / Right-Angle /  PC Mount / Plastic Shaft</b>
 <p>
 <a href="http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-9mm-right-angle-pc-mount-w-knurled-plastic-shaft/">http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-9mm-right-angle-pc-mount-w-knurled-plastic-shaft/</a>
 
 0
 5
 3
-0
+MBv3 potentiometers
 9MM_VERT.1
 <b>9mm /  PC Mount / with shaft illustration</b>
 <p>
 <a href="http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-9mm-pc-mount/">http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-9mm-pc-mount/</a>
-0
+
 0
 3
 3
 MBv3 potentiometers
 9MM_VERT.2
 <b>9mm /  PC Mount</b>
-0
-0
-0
+<p>
+<a href="http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-9mm-pc-mount/">http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-9mm-pc-mount/</a>
+
 0
 3
 3
 MBv3 potentiometers
-14
-0
-0
+14MM
+<b>14mm /  PC Mount / Right Angle</b>
+<p>
 For clear-shaft pots with 3mm LED insert
 <p>
 <a href="http://smallbear-electronics.mybigcommerce.com/alpha-clear-shaft-pots-w-bushing/">http://smallbear-electronics.mybigcommerce.com/alpha-clear-shaft-pots-w-bushing/</a>
@@ -53819,37 +53819,37 @@ MBv3 potentiometers
 16MM_B.MOUNT
 <b>16mm / Right-Angle /  PC Mount / Short Pin</b>
 <p>
-0
-0
-0
+For bottom-mount potentiometers
+<p>
+<a href="http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-right-angle-pc-mount/">http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-right-angle-pc-mount/</a>
 
 0
 3
 3
-0
-16
-0
+MBv3 potentiometers
+16MM_B.MOUNT_BANZAI
+<b>16mm / Right-Angle /  PC Mount / Short Pin</b>
 <p>
 For bottom-mount potentiometers
 <p>
 <a href="http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-right-angle-pc-mount/">http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-right-angle-pc-mount/</a>
-0
+
 0
 3
 3
 MBv3 potentiometers
 16MM_C.MOUNT
 <b>16mm / Right-Angle /  PC Mount / Short Pin</b>
-0
-0
-0
+<p>
+For aligning the center of the pot shaft to a specific drill location
+<p>
 <a href="http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-right-angle-pc-mount/">http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-right-angle-pc-mount/</a>
 
 0
 3
 3
-0
-16
+MBv3 potentiometers
+16MM_DUALGANG
 <b>16mm / Right-Angle /  PC Mount / Dual-Gang</b>
 <p>
 <a href="http://smallbear-electronics.mybigcommerce.com/alpha-dual-gang-16mm-pc-mount/">http://smallbear-electronics.mybigcommerce.com/alpha-dual-gang-16mm-pc-mount/</a>
@@ -53861,268 +53861,268 @@ MBv3 potentiometers
 16MM_MINIMAL_B.MOUNT
 <b>16mm / Right-Angle /  PC Mount / Short Pin</b>
 <p>
-0
-0
-0
+For bottom-mount potentiometers
+<p>
+<a href="http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-right-angle-pc-mount/">http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-right-angle-pc-mount/</a>
 
 0
 3
 3
-0
-16
-0
+MBv3 potentiometers
+16MM_PADS.1
+<b>16mm / Solder Lug</b>
 <p>
 For wired potentiometers
 <p>
 <a href="http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-solder-terms-linear-audio-taper/">http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-solder-terms-linear-audio-taper/</a>
-0
+
 0
 3
 3
 MBv3 potentiometers
 16MM_PADS.2
 <b>16mm / Solder Lug</b>
-0
-0
-0
+<p>
+For wired potentiometers
+<p>
 <a href="http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-solder-terms-linear-audio-taper/">http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-solder-terms-linear-audio-taper/</a>
 
 0
 3
 3
-0
-16
+MBv3 potentiometers
+16MM_T.MOUNT
 <b>16mm / Right-Angle / PC Mount / Long Pin</b>
 <p>
 For top-mounted potentiometers
 <p>
-0
-0
+<a href="http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-rt-angle-pc-mt-long-pin-linear-audio//">http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-rt-angle-pc-mt-long-pin-linear-audio/</a>
+
 0
 3
 3
 MBv3 potentiometers
 TRIM1
-0
-0
-0
+<b>Bourns 3362p</b>
+<p>
+<a href="http://www.taydaelectronics.com/potentiometer-variable-resistors/cermet-potentiometers/3362p.html">http://www.taydaelectronics.com/potentiometer-variable-resistors/cermet-potentiometers/3362p.html</a>
 
 0
 3
 3
-0
-0
-0
+MBv3 potentiometers
+Trim_Multi_turns
+
 trim multi turn
 0
 3
 3
-0
-0
-0
+MBv3 potentiometers
+Trim_Multi_turns_large
+
 trim multi turn
 0
 3
 3
-0
-0
-0
+MBv3 regulators
+TO39
+<b>Metal Can Package</b>
 
 0
 3
 3
-0
-0
-0
+MBv3 regulators
+TO92
+
 
 0
 3
 3
-0
-0
-0
+MBv3 regulators
+TO220.1
+
 
 0
 3
 3
-0
-0
-0
+MBv3 regulators
+TO220.2
+<b>TO-220</b>
 
 0
 3
 3
-0
-0
-0
+MBv3 regulators
+TO252
+<b>SMALL OUTLINE TRANSISTOR</b><p>
 TS-003
 
 0
 3
 3
-0
-8
+MBv3 relays
+8-PIN
 
 
 0
 8
 8
-0
-8
+MBv3 relays
+8-PIN_Fujitsu_Tayda
 
 
 0
 8
 8
+MBv3 relays
+10PIN
+
+
 0
 10
-
-
-0
 10
-10
-0
-0
+MBv3 resistors
+0.1%22
 0.1"  (2.54mm) lead spacing, 1/8 or 1/4W (standing)
 
 0
 2
 2
-0
-0
+MBv3 resistors
+0.2%22
 0.2"  (5mm) lead spacing, 1/8W (flat), 1/4W (standing)
 
 0
 2
 2
-0
-0
+MBv3 resistors
+0.3%22.A
 0.3"  (7.62mm) lead spacing, 1/8W (flat)
 
 0
 2
 2
-0
-0
+MBv3 resistors
+0.3%22.B
 0.3"  (7.62mm) lead spacing, 1/4W (flat)
 
 0
 2
 2
-0
-0
+MBv3 resistors
+0.3_22.B
 0.3"  (7.62mm) lead spacing, 1/4W (flat)
 
 0
 2
 2
-0
-0
+MBv3 resistors
+0.4%22
 0.4"  (10.16mm) lead spacing, 1/4W (flat)
 
 0
 2
 2
-0
-0
+MBv3 resistors
+0.5%22
 0.5"  (12.7mm) lead spacing, 1/4W (flat)
 
 0
 2
 2
-0
-0
+MBv3 resistors
+0.6%22
 0.6"  (15.24mm) lead spacing, 1W (flat)
 
 0
 2
 2
-0
-8
+MBv3 submini_tubes
+8PIN
 
 
 0
 8
 8
-0
+MBv3 submini_tubes
 5672
 
 
 0
 5
 5
-0
+MBv3 submini_tubes
 6111
 
 
 0
 8
 8
-0
-0
+MBv3 submini_tubes
+TUBE2
 
 
 0
 8
 8
-0
-0
+MBv3 supply_pins
+IO.1
 
 
 0
 8
 8
-0
-0
+MBv3 supply_pins
+IO.2
 
 
 0
 6
 6
-0
-0
+MBv3 supply_pins
+PAD1
 <b>Round Pad (w/label) - 80mil Diameter, 47mil Drill<b>
 
 0
 1
 1
-0
-0
+MBv3 supply_pins
+PAD2
 <b>Round Pad (no label) - 76mil Diameter, 39mil Drill<b>
 
 0
 1
 1
-0
-0
+MBv3 supply_pins
+PAD3
 <b>Square Pad (w/label) - 80mil Diameter, 47mil Drill<b>
 
 0
 1
 1
-0
-0
+MBv3 supply_pins
+PAD4
 <b>Square (no label) - 76mil Diameter, 39mil Drill<b>
 
 0
 1
 1
-0
-1
+MBv3 switches
+1P3T
 For wired connections (useful for cap/filter switching)
 
 0
 4
 4
-0
-1
+MBv3 switches
+1P12T
 <b>Alpha SR2612F-0112</b>
 <br><a href="http://smallbear-electronics.mybigcommerce.com/26mm-enclosed-1p2-12t-0227b/">http://smallbear-electronics.mybigcommerce.com/26mm-enclosed-1p2-12t-0227b/</a>
 
 0
 13
 13
-0
+MBv3 switches
 2P4T.MINI
 <b>Mini</b>
 <br> <a href="http://smallbear-electronics.mybigcommerce.com/rotary-switch-miniature-2p4t/">http://smallbear-electronics.mybigcommerce.com/rotary-switch-miniature-2p4t/</a>
@@ -54134,30 +54134,30 @@ MBv3 switches
 2P4T.MINI_MODIF
 <b>Mini</b>
 <br> <a href="http://smallbear-electronics.mybigcommerce.com/rotary-switch-miniature-2p4t/">http://smallbear-electronics.mybigcommerce.com/rotary-switch-miniature-2p4t/</a>
-0
+
 0
 10
 10
 MBv3 switches
 3P4T
 <b>Alpha SR2612F-0304</b>
-0
-0
+<br><a href="http://smallbear-electronics.mybigcommerce.com/26mm-enclosed-3p2-4t/">http://smallbear-electronics.mybigcommerce.com/26mm-enclosed-3p2-4t/</a>
+
 0
 15
 15
 MBv3 switches
 3PDT.LUGS
-0
-0
-0
+<b> Latching Footswitch, Solder Lugs</b>
+<br><a href="http://smallbear-electronics.mybigcommerce.com/cic-blue-3pdt/">http://smallbear-electronics.mybigcommerce.com/cic-blue-3pdt/</a>
+<p>
 <b>Momentary Footswitch, Solder Lugs</b>
 <br><a href="http://smallbear-electronics.mybigcommerce.com/cic-blue-3pdt-momentary/">http://smallbear-electronics.mybigcommerce.com/cic-blue-3pdt-momentary/</a>
 
 0
 9
 9
-0
+MBv3 switches
 3PDT.PINS
 <b>Latching Footswitch, PC Mount</b> 
 <br><a href="http://smallbear-electronics.mybigcommerce.com/cic-blue-3pdt-pc-mount/">http://smallbear-electronics.mybigcommerce.com/cic-blue-3pdt-pc-mount/</a>
@@ -54169,100 +54169,100 @@ MBv3 switches
 3PDT.TOGGLE
 <b>Toogle Switch, Solder Lug</b>
 <br><a href="http://smallbear-electronics.mybigcommerce.com/3pdt-on-on-short-lever-solder-terminal/">http://smallbear-electronics.mybigcommerce.com/3pdt-on-on-short-lever-solder-terminal/</a>
-0
+
 0
 9
 9
 MBv3 switches
 3PDT.WIRE
 Wire to switch
-0
+
 0
 9
 9
 MBv3 switches
 4P3T
 <b>Alpha SR2612F-0403</b>
-0
-0
-0
+<br>
+<a href="http://smallbear-electronics.mybigcommerce.com/26mm-enclosed-4p2-3t/">http://smallbear-electronics.mybigcommerce.com/26mm-enclosed-4p2-3t/</a>
+
 0
 16
 16
 MBv3 switches
-4
-0
-0
+4PDT.TOGGLE
+<b>Toggle Switch, Solder Lugs</b>
+<br><a href="http://smallbear-electronics.mybigcommerce.com/4pdt-on-on/">http://smallbear-electronics.mybigcommerce.com/4pdt-on-on/</a>
 
 0
 12
 12
-0
-125
-0
+MBv3 switches
+125B
+
 
 0
 0
 0
-0
-0
-0
+MBv3 switches
+DIP2.A
+Pin spacing - 2.54mm horizontal, 7.62mm vertical
 
 0
 4
 4
-0
-0
-0
+MBv3 switches
+DIP2.B
+Pin spacing - 2.54mm horizontal, 7.62mm vertical
 
 0
 4
 4
-0
-0
-0
+MBv3 switches
+DIP3
+Pin spacing - 2.54mm horizontal, 7.62mm vertical
 
 0
 6
 6
-0
-0
-0
+MBv3 switches
+DPDT.LUGS
+<b>Toggle Switch, Solder Lugs</b>
 <br>
 Taiway 1MD1T1B1C0M1QE: <a href="http://smallbear-electronics.mybigcommerce.com/dpdt-on-on-solder-term/">http://smallbear-electronics.mybigcommerce.com/dpdt-on-on-solder-term/</a>
 
 0
 6
 6
-0
+MBv3 switches
 DPDT.MINI1
 <b>Mini Footswitch, PC Mount</b>
 <br>
 Alpha  SF12011F-0202: <a href="http://smallbear-electronics.mybigcommerce.com/alpha-107-sf12011-l-dpdt/">http://smallbear-electronics.mybigcommerce.com/alpha-107-sf12011-l-dpdt/</a>
-0
+
 0
 6
 6
 MBv3 switches
 DPDT.MINI2
 <b>Mini Toggle Switch, PC Mount</b>
-0
-0
-0
+<br>
+Taiway 2MD1T1B1M2RE: <a href="http://smallbear-electronics.mybigcommerce.com/dpdt-on-on-sub-mini-pc-mount/">http://smallbear-electronics.mybigcommerce.com/dpdt-on-on-sub-mini-pc-mount/</a>
+
 0
 6
 6
 MBv3 switches
-0
-0
-0
+DPDT.PINS
+<b>Toggle Switch, PC Mount</b>
+<br>
 Taiway 1MD1T1B1C0M2QE: <a href="http://smallbear-electronics.mybigcommerce.com/dpdt-on-on-pc-mount/">http://smallbear-electronics.mybigcommerce.com/dpdt-on-on-pc-mount/</a>
 
 0
 6
 6
-0
-0
+MBv3 switches
+DPDT.SLIDE
 <b>Slide Switch</b>
 <br>
 CK 0S202011MS2QN1: <a href="http://www.mouser.com/ProductDetail/CK-Components/0S202011MS2QN1/?qs=sGAEpiMZZMtHXLepoqNyVWY62gt1t1Lcq4sdpP5HA5g%3d">http://www.mouser.com/ProductDetail/CK-Components/0S202011MS2QN1/?qs=sGAEpiMZZMtHXLepoqNyVWY62gt1t1Lcq4sdpP5HA5g%3d</a>
@@ -54281,107 +54281,107 @@ MBv3 switches
 SPDT.LUGS
 <b>Toggle Switch, Solder Lugs</b>
 <br>
-0
-0
+Taiway 1MS1T1B1C0M1QE: <a href="http://smallbear-electronics.mybigcommerce.com/spdt-on-on/">http://smallbear-electronics.mybigcommerce.com/spdt-on-on/</a>
+
 0
 3
 3
 MBv3 switches
 SPDT.MINI
-0
-0
-0
+<b>Mini Toggle Switch, PC Mount</b>
+<br>
+Mountain 10TC410: <a href="http://smallbear-electronics.mybigcommerce.com/spdt-on-on-mountain-10tc410/">http://smallbear-electronics.mybigcommerce.com/spdt-on-on-mountain-10tc410/</a>
 
 0
 3
 3
-0
-0
-0
+MBv3 switches
+SPDT.PINS
+<b>Toggle Switch, PC Mount</b>
 <br>
 Taiway 1MS1T1B1C0M2QE: <a href="http://smallbear-electronics.mybigcommerce.com/spdt-on-on-0218a/">http://smallbear-electronics.mybigcommerce.com/spdt-on-on-0218a/</a>
 
 0
 3
 3
-0
+MBv3 switches
 SPDT.WIRE
 Wire to switch
 
 0
 3
 3
-0
+MBv3 switches
 SPST.MOM
 <b>SPST Momentary Foot Switch</b>
 <br>
  <a href="http://smallbear-electronics.mybigcommerce.com/momentary-spst-no-soft-touch/">http://smallbear-electronics.mybigcommerce.com/momentary-spst-no-soft-touch/</a>
-0
+
 0
 2
 2
 MBv3 switches
 SPST.WIRE
 Wire to switch
-0
+
 0
 2
 2
 MBv3 switches
 SR1712F
 <b>1P-8T Alpha SR1712F-0108</b>
-0
-0
-0
+<br><a href="http://www.mouser.com/ProductDetail/Alpha-Taiwan/SR1712F-0108-20F0A-N9-N-027/?qs=sGAEpiMZZMvNbjZ2WlReYnXCw5Ewy7NZqvxA5I%2fimkc%3d">http://www.mouser.com/ProductDetail/Alpha-Taiwan/SR1712F-0108-20F0A-N9-N-027/?qs=sGAEpiMZZMvNbjZ2WlReYnXCw5Ewy7NZqvxA5I%2fimkc%3d</a>
+<p>
+<b>2P-4T Alpha SR1712F-0204</b>
 <br> <a href="http://www.mouser.com/ProductDetail/Alpha-Taiwan/SR1712F-0204-20F0A-N9-N-027/?qs=sGAEpiMZZMvNbjZ2WlReYnXCw5Ewy7NZBfCUQUEQcxM%3d">http://www.mouser.com/ProductDetail/Alpha-Taiwan/SR1712F-0204-20F0A-N9-N-027/?qs=sGAEpiMZZMvNbjZ2WlReYnXCw5Ewy7NZBfCUQUEQcxM%3d</a>
 
 0
 10
 10
-0
-0
+MBv3 switches
+SR1712F_2P4T
 <b>1P-8T Alpha SR1712F-0108</b>
 <br><a href="http://www.mouser.com/ProductDetail/Alpha-Taiwan/SR1712F-0108-20F0A-N9-N-027/?qs=sGAEpiMZZMvNbjZ2WlReYnXCw5Ewy7NZqvxA5I%2fimkc%3d">http://www.mouser.com/ProductDetail/Alpha-Taiwan/SR1712F-0108-20F0A-N9-N-027/?qs=sGAEpiMZZMvNbjZ2WlReYnXCw5Ewy7NZqvxA5I%2fimkc%3d</a>
 <p>
 <b>2P-4T Alpha SR1712F-0204</b>
-0
-0
+<br> <a href="http://www.mouser.com/ProductDetail/Alpha-Taiwan/SR1712F-0204-20F0A-N9-N-027/?qs=sGAEpiMZZMvNbjZ2WlReYnXCw5Ewy7NZBfCUQUEQcxM%3d">http://www.mouser.com/ProductDetail/Alpha-Taiwan/SR1712F-0204-20F0A-N9-N-027/?qs=sGAEpiMZZMvNbjZ2WlReYnXCw5Ewy7NZBfCUQUEQcxM%3d</a>
+
 0
 10
 10
 MBv3 transformers
 12V-125MA
-0
-0
-0
+<b>12v 125mA</b>
+<br><a href="http://smallbear-electronics.mybigcommerce.com/transformer-12-volt-125-ma/">http://smallbear-electronics.mybigcommerce.com/transformer-12-volt-125-ma/</a>
+
 0
 4
 4
 MBv3 transformers
-42
-0
-0
+42TC
+<b>Xicon Ultra-Mini Audio Transformer</b> 42TC Series<p>
+Source: http://www.mouser.com/catalog/specsheets/114225.pdf
 
 0
 6
 6
-0
-42
-0
+MBv3 transformers
+42TL
+<b>Xicon Ultra-Mini Audio Transformer</b> 42TL Series<p>
 Category:   Audio & Signal Transformers<br>
 Source: http://www.mouser.com//catalog/specsheets/164201.pdf
 
 0
 6
 6
-0
+MBv3 transformers
 42TL2
 
 
 0
 5
 5
-0
+MBv3 transformers
 42TM
 <b>Xicon Ultra-Mini Audio Transformer</b> 42TM Series<p>
 Source: http://www.mouser.com/catalog/specsheets/164267.pdf
@@ -64340,160 +64340,178 @@ pedal-component-footprint
 3PDT.LUGS.FLPVSK
 <b> Latching Footswitch, Solder Lugs</b>
 <br><a href="http://smallbear-electronics.mybigcommerce.com/cic-blue-3pdt/">http://smallbear-electronics.mybigcommerce.com/cic-blue-3pdt/</a>
-0
-0
-0
+<p>
+<b>Momentary Footswitch, Solder Lugs</b>
+<br><a href="http://smallbear-electronics.mybigcommerce.com/cic-blue-3pdt-momentary/">http://smallbear-electronics.mybigcommerce.com/cic-blue-3pdt-momentary/</a>
 
 0
 9
 9
-0
-3
-0
+pedal-component-footprint
+3PDT.kicad_mod
+
 
 0
 9
 9
-0
-1590
-0
+pedal-component-footprint
+1590XX
+
 
 0
 0
 0
-0
-0
-0
+pedal-component-footprint
+Accutronics_BTDR3_BeltonBrick
+
 
 0
 10
 10
-0
-0
-0
+pedal-component-footprint
+Alpha_Pot_3_Holes
+
 
 0
 3
 3
-0
-0
-0
+pedal-component-footprint
+BoardHeader_1x07_P2.54mm_Long_FXSide
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
 Through hole pin header THT 1x01 2.54mm single row
 0
 7
 7
-0
-0
-0
+pedal-component-footprint
+BoardHeader_1x07_P2.54mm_Long_SwitchSide
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
 Through hole pin header THT 1x01 2.54mm single row
 0
 7
 7
-0
-0
-0
+pedal-component-footprint
+BreadboardTemplate
 
-0
-2
-2
-0
-0
-0
-neutrik jack m
-0
-6
-6
-0
-0
-0
-neutrik jack m
-0
-6
-6
-0
-0
-0
 
 0
 0
 0
+pedal-component-footprint
+Jack-TS-6.35mm-Audio-Pads
+
+
+0
+2
+2
+pedal-component-footprint
+Jack_6.35mm_Neutrik_NMJ6HCD3_Horizontal
+M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and offset PCB pins, https://www.neutrik.com/en/product/nmj6hcd3
+neutrik jack m
+0
+6
+6
+pedal-component-footprint
+Jack_6.35mm_Neutrik_NMJ6HCD3_Horizontal_Naming
+M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and offset PCB pins, https://www.neutrik.com/en/product/nmj6hcd3
+neutrik jack m
+0
+6
+6
+pedal-component-footprint
+Jack_6.35mm_Rean_Open_Front
+
+
 0
 0
 0
+pedal-component-footprint
+MountingHole_1.2mm
+Mounting Hole 2.1mm, no annular
 mounting hole 2.1mm no annular
 0
 1
 1
-0
-0
-0
+pedal-component-footprint
+PinHeader_1x01_P2.54mm_Long_Front_Back
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
 Through hole pin header THT 1x01 2.54mm single row
 0
 1
 1
-0
-0
-0
+pedal-component-footprint
+PinHeader_1x01_P2.54mm_Vertical
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
 Through hole pin header THT 1x01 2.54mm single row
 0
 1
 1
-0
-0
-0
+pedal-component-footprint
+PinHeader_1x01_P2.54mm_Vertical_Front_Back
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
 Through hole pin header THT 1x01 2.54mm single row
 0
 1
 1
-0
-0
-0
+pedal-component-footprint
+RS_PRO-DPDT-ON_OFF_ON-5A-250VAC
+
 
 0
 6
 6
-0
-0
-0
+pedal-component-footprint
+Tayda 6.35mm Jack Front
+
 
 0
 0
 0
-0
-0
-0
+pedal-component-footprint
+Tayda 6.35mm Jack Side
+
 
 0
 0
 0
-0
-0
-0
+pedal-component-footprint
+Transistor_KTYU-3-6_CBE_d11.7mm
 
-0
-3
-3
-0
-0
-0
 
 0
 3
 3
+pedal-component-footprint
+Transistor_KTYU-3-6_d11.7mm
+
+
 0
+3
+3
+pedal-component-footprint
+Transistor_TO-5_CBE_d10.1mm
+
+
 0
-0
+3
+3
+pedal-component-footprint
+claw-feather-graphics
+
 
 0
 0
 0
-0
-0
-0
+pedal-component-footprint
+claw-feather-graphics-2
+
 
 0
 0
 0
+pedal-component-footprint
+roarschach-graphics
+
+
 0
 0
 0
