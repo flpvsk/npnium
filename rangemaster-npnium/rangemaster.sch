@@ -124,7 +124,7 @@ AR Path="/61408FFB" Ref="Q?"  Part="1"
 AR Path="/613FCD57/61408FFB" Ref="Q1"  Part="1" 
 F 0 "Q1" H 3391 5896 50  0000 L CNN
 F 1 "Q_NPN_CBE" H 3391 5805 50  0000 L CNN
-F 2 "pedal-component-footprint:Transistor_KTYU-3-6_CBE_d11.7mm" H 3400 5950 50  0001 C CNN
+F 2 "pedal-component-footprint:Transistor_TO-5_CBE_d10.1mm" H 3400 5950 50  0001 C CNN
 F 3 "~" H 3200 5850 50  0001 C CNN
 	1    3200 5850
 	1    0    0    -1  
@@ -214,7 +214,7 @@ Connection ~ 2650 5850
 Wire Wire Line
 	2650 5850 2650 5600
 Wire Wire Line
-	2200 5850 2650 5850
+	2200 5850 2450 5850
 Wire Wire Line
 	3300 5350 3300 5650
 $Comp
@@ -489,4 +489,20 @@ F 3 "" H 1400 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1400 3650 1100 3650
+$Comp
+L Connector:TestPoint TP1
+U 1 1 6175E388
+P 2450 4650
+F 0 "TP1" H 2508 4768 50  0000 L CNN
+F 1 "Vb" H 2508 4677 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2650 4650 50  0001 C CNN
+F 3 "~" H 2650 4650 50  0001 C CNN
+	1    2450 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4650 2450 5850
+Connection ~ 2450 5850
+Wire Wire Line
+	2450 5850 2650 5850
 $EndSCHEMATC

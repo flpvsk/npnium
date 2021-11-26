@@ -1,0 +1,152 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push_3PDT SW?
+U 1 1 6140F69D
+P 2850 1300
+F 0 "SW?" H 2850 1985 50  0000 C CNN
+F 1 "SW_Push_3PDT" H 2850 1894 50  0000 C CNN
+F 2 "" H 2850 1660 50  0001 C CNN
+F 3 "~" H 2850 1660 50  0001 C CNN
+	1    2850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L pedals:PedalBoardHeader J?
+U 1 1 61412DD6
+P 1150 1100
+F 0 "J?" H 1150 650 50  0001 C CNN
+F 1 "PedalBoardHeader" H 1150 1550 50  0001 C CNN
+F 2 "pedal-component-footprint:BoardHeader_1x07_P2.54mm_Long_SwitchSide" H 1150 1100 50  0001 C CNN
+F 3 "" H 1150 1100 50  0001 C CNN
+	1    1150 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61413AAE
+P 1350 750
+F 0 "#PWR?" H 1350 500 50  0001 C CNN
+F 1 "GND" H 1450 750 50  0000 C CNN
+F 2 "" H 1350 750 50  0001 C CNN
+F 3 "" H 1350 750 50  0001 C CNN
+	1    1350 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 750  1350 650 
+Wire Wire Line
+	1350 650  1150 650 
+Wire Wire Line
+	1150 650  1150 800 
+$Comp
+L power:+9V #PWR?
+U 1 1 61414062
+P 1650 900
+F 0 "#PWR?" H 1650 750 50  0001 C CNN
+F 1 "+9V" H 1665 1073 50  0000 C CNN
+F 2 "" H 1650 900 50  0001 C CNN
+F 3 "" H 1650 900 50  0001 C CNN
+	1    1650 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 900  1150 900 
+Text GLabel 1250 1200 2    50   Input ~ 0
+FX_IN
+Wire Wire Line
+	1150 1200 1250 1200
+Text GLabel 1250 1300 2    50   Input ~ 0
+PEDAL_OUT
+Wire Wire Line
+	1250 1300 1150 1300
+Text GLabel 1250 1400 2    50   Input ~ 0
+FX_OUT
+Wire Wire Line
+	1150 1400 1250 1400
+Text GLabel 1250 1100 2    50   Input ~ 0
+PEDAL_IN
+Wire Wire Line
+	1250 1100 1150 1100
+Text GLabel 1250 1000 2    50   Input ~ 0
+LED+
+Wire Wire Line
+	1150 1000 1250 1000
+Text GLabel 2600 1700 0    50   Input ~ 0
+LED+
+Text GLabel 3100 1200 2    50   Input ~ 0
+PEDAL_IN
+Text GLabel 2600 1300 0    50   Input ~ 0
+PEDAL_OUT
+Text GLabel 2600 900  0    50   Input ~ 0
+FX_IN
+Wire Wire Line
+	2600 1700 2650 1700
+$Comp
+L power:+9V #PWR?
+U 1 1 61418D74
+P 3650 1800
+F 0 "#PWR?" H 3650 1650 50  0001 C CNN
+F 1 "+9V" H 3665 1973 50  0000 C CNN
+F 2 "" H 3650 1800 50  0001 C CNN
+F 3 "" H 3650 1800 50  0001 C CNN
+	1    3650 1800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3050 1600
+$Comp
+L Device:R R?
+U 1 1 614198EE
+P 3350 1800
+F 0 "R?" V 3143 1800 50  0001 C CNN
+F 1 "R_LED" V 3235 1800 50  0000 C CNN
+F 2 "" V 3280 1800 50  0001 C CNN
+F 3 "~" H 3350 1800 50  0001 C CNN
+	1    3350 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 1800 3650 1800
+Wire Wire Line
+	3050 1800 3200 1800
+$Comp
+L power:GND #PWR?
+U 1 1 6141A8F3
+P 3300 800
+F 0 "#PWR?" H 3300 550 50  0001 C CNN
+F 1 "GND" H 3400 800 50  0000 C CNN
+F 2 "" H 3300 800 50  0001 C CNN
+F 3 "" H 3300 800 50  0001 C CNN
+	1    3300 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 800  3050 800 
+Wire Wire Line
+	2600 900  2650 900 
+Text GLabel 3100 1000 2    50   Input ~ 0
+PEDAL_IN
+Wire Wire Line
+	3100 1000 3050 1000
+Wire Wire Line
+	3100 1200 3050 1200
+Wire Wire Line
+	2650 1300 2600 1300
+Text GLabel 3100 1400 2    50   Input ~ 0
+FX_OUT
+Wire Wire Line
+	3100 1400 3050 1400
+$EndSCHEMATC

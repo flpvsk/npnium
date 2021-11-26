@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Volumes/hdd/Projects/kicad/npnium/rangemaster-npnium/npnium.sch</source>
+    <date>2021 October 09, Saturday 12:06:46</date>
+    <tool>Eeschema (5.1.5-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>npnium.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Range Master/" tstamps="/613FCD57/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rangemaster.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Cp1">
+      <value>47u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>6140900D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>6140902A</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NPN_CBE</value>
+      <footprint>pedal-component-footprint:Transistor_KTYU-3-6_CBE_d11.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>61408FFB</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>47u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>6140905A</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>100K</value>
+      <footprint>MBv3 potentiometers:Trim_Multi_turns</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>61409036</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>470K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>61409007</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>3.9K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>61409001</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>5n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>61408FF4</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x07_Male</value>
+      <footprint>pedal-component-footprint:BoardHeader_1x07_P2.54mm_Long_FXSide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x07_Male" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>61420BBE</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>PEDAL_IN</value>
+      <footprint>pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>614284D6</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>JACK_GND</value>
+      <footprint>pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>6142963E</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>PEDAL_OUT</value>
+      <footprint>pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>6142A8F7</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>JACK_GND</value>
+      <footprint>pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>6142B36B</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>LED-</value>
+      <footprint>pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>6142F0FF</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>LED+</value>
+      <footprint>pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>61431949</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>A10K</value>
+      <footprint>MBv3 potentiometers:16MM_B.MOUNT_BANZAI</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>6140901B</tstamp>
+    </comp>
+    <comp ref="H7">
+      <value>GND</value>
+      <footprint>pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>6143D2EA</tstamp>
+    </comp>
+    <comp ref="H8">
+      <value>9V</value>
+      <footprint>pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Range Master/" tstamps="/613FCD57/"/>
+      <tstamp>6143E666</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x07_Male">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_CBE">
+      <description>NPN transistor, collector/base/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_CBE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_TRIM">
+      <description>Trim-potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_TRIM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+9V">
+      <node ref="R1" pin="1"/>
+      <node ref="Cp1" pin="1"/>
+      <node ref="H8" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="RV2" pin="1"/>
+    </net>
+    <net code="2" name="FX_IN">
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="3" name="FX_OUT">
+      <node ref="J1" pin="7"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="RV2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="RV2" pin="3"/>
+    </net>
+    <net code="6" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C1-Pad1)">
+      <node ref="Q1" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="RV1" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="Cp1" pin="2"/>
+      <node ref="H1" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H3" pin="1"/>
+      <node ref="H7" pin="1"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="9" name="Net-(H4-Pad1)">
+      <node ref="H4" pin="1"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="10" name="Net-(H5-Pad1)">
+      <node ref="H5" pin="1"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="11" name="Net-(H6-Pad1)">
+      <node ref="H6" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+  </nets>
+</export>
