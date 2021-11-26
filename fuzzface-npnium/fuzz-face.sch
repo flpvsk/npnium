@@ -61,7 +61,7 @@ AR Path="/61418B82" Ref="Q?"  Part="1"
 AR Path="/6140A369/61418B82" Ref="Q1"  Part="1" 
 F 0 "Q1" H 3291 4596 50  0000 L CNN
 F 1 "Q_NPN_CBE" H 3291 4505 50  0000 L CNN
-F 2 "pedal-component-footprint:Transistor_KTYU-3-6_CBE_d11.7mm" H 3300 4650 50  0001 C CNN
+F 2 "pedal-component-footprint:Transistor_TO-5_CBE_d10.1mm_2" H 3300 4650 50  0001 C CNN
 F 3 "~" H 3100 4550 50  0001 C CNN
 	1    3100 4550
 	1    0    0    -1  
@@ -327,7 +327,7 @@ AR Path="/61418B88" Ref="Q?"  Part="1"
 AR Path="/6140A369/61418B88" Ref="Q2"  Part="1" 
 F 0 "Q2" H 3941 4246 50  0000 L CNN
 F 1 "Q_NPN_CBE" H 3941 4155 50  0000 L CNN
-F 2 "pedal-component-footprint:Transistor_KTYU-3-6_CBE_d11.7mm" H 3950 4300 50  0001 C CNN
+F 2 "pedal-component-footprint:Transistor_TO-5_CBE_d10.1mm_2" H 3950 4300 50  0001 C CNN
 F 3 "~" H 3750 4200 50  0001 C CNN
 	1    3750 4200
 	1    0    0    -1  
@@ -590,8 +590,8 @@ L power:GND #PWR?
 U 1 1 614076A9
 P 1950 3650
 AR Path="/614076A9" Ref="#PWR?"  Part="1" 
-AR Path="/6140A369/614076A9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1950 3400 50  0001 C CNN
+AR Path="/6140A369/614076A9" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 1950 3400 50  0001 C CNN
 F 1 "GND" H 1955 3477 50  0000 C CNN
 F 2 "" H 1950 3650 50  0001 C CNN
 F 3 "" H 1950 3650 50  0001 C CNN

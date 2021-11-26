@@ -544,7 +544,7 @@ L Mechanical:MountingHole_Pad H11
 U 1 1 6142EFF3
 P 1350 3350
 F 0 "H11" V 1350 4150 50  0000 C CNN
-F 1 "LED-" V 1350 3500 50  0000 L CNN
+F 1 "LED+" V 1350 3500 50  0000 L CNN
 F 2 "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back" H 1350 3350 50  0001 C CNN
 F 3 "~" H 1350 3350 50  0001 C CNN
 	1    1350 3350
@@ -555,7 +555,7 @@ L Mechanical:MountingHole_Pad H15
 U 1 1 6142F6D9
 P 1950 3350
 F 0 "H15" V 1950 4150 50  0000 C CNN
-F 1 "LED-" V 1950 3500 50  0000 L CNN
+F 1 "LED+" V 1950 3500 50  0000 L CNN
 F 2 "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back" H 1950 3350 50  0001 C CNN
 F 3 "~" H 1950 3350 50  0001 C CNN
 	1    1950 3350
@@ -568,24 +568,11 @@ L Mechanical:MountingHole_Pad H12
 U 1 1 61430BD3
 P 1350 3650
 F 0 "H12" V 1350 4450 50  0000 C CNN
-F 1 "LED+" V 1350 3800 50  0000 L CNN
+F 1 "LED-" V 1350 3800 50  0000 L CNN
 F 2 "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back" H 1350 3650 50  0001 C CNN
 F 3 "~" H 1350 3650 50  0001 C CNN
 	1    1350 3650
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+9V #PWR?
-U 1 1 61430E00
-P 1950 3650
-AR Path="/61430E00" Ref="#PWR?"  Part="1" 
-AR Path="/6140A369/61430E00" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 1950 3500 50  0001 C CNN
-F 1 "+9V" H 1965 3823 50  0000 C CNN
-F 2 "" H 1950 3650 50  0001 C CNN
-F 3 "" H 1950 3650 50  0001 C CNN
-	1    1950 3650
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1950 3650 1450 3650
@@ -598,4 +585,17 @@ Wire Wire Line
 Connection ~ 3850 5950
 Wire Wire Line
 	3850 5950 3850 6100
+$Comp
+L power:GND #PWR?
+U 1 1 614076A9
+P 1950 3650
+AR Path="/614076A9" Ref="#PWR?"  Part="1" 
+AR Path="/6140A369/614076A9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1950 3400 50  0001 C CNN
+F 1 "GND" H 1955 3477 50  0000 C CNN
+F 2 "" H 1950 3650 50  0001 C CNN
+F 3 "" H 1950 3650 50  0001 C CNN
+	1    1950 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
