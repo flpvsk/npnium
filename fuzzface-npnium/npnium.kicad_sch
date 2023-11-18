@@ -1,0 +1,147 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 4d4b0fcd-2c79-4fc3-b5fa-7a0741601344)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 17.78 19.05) (size 12.7 12.7) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00006140a369)
+    (property "Sheet name" "Fuzz Face" (id 0) (at 17.78 18.3384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "fuzz-face.kicad_sch" (id 1) (at 17.78 32.3346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-00006140a369" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418b68"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061408534"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061420bfc"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-0000614232fe"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418b70"
+      (reference "#PWR06") (unit 1) (value "+9V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-00006140853b"
+      (reference "#PWR07") (unit 1) (value "+9V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418be0"
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418bc7"
+      (reference "#PWR09") (unit 1) (value "+9V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418bda"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418c0a"
+      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418bfa"
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-0000614076a9"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-0000613c96e3"
+      (reference "C1") (unit 1) (value "2.2u") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418bea"
+      (reference "C2") (unit 1) (value "10n") (footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418bae"
+      (reference "C3") (unit 1) (value "22u") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418c03"
+      (reference "Cp1") (unit 1) (value "47u") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-0000613f4c20"
+      (reference "H1") (unit 1) (value "GND") (footprint "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-0000613f6012"
+      (reference "H2") (unit 1) (value "9V") (footprint "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-0000613f6a38"
+      (reference "H3") (unit 1) (value "FX_IN") (footprint "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-0000613f6b94"
+      (reference "H4") (unit 1) (value "FX_OUT") (footprint "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061408542"
+      (reference "H5") (unit 1) (value "GND") (footprint "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061408548"
+      (reference "H6") (unit 1) (value "9V") (footprint "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-00006140958a"
+      (reference "H7") (unit 1) (value "PEDAL_IN") (footprint "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-00006141f531"
+      (reference "H8") (unit 1) (value "JACK_GND") (footprint "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-00006141d1a2"
+      (reference "H9") (unit 1) (value "PEDAL_OUT") (footprint "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-0000614232f8"
+      (reference "H10") (unit 1) (value "JACK_GND") (footprint "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-00006142eff3"
+      (reference "H11") (unit 1) (value "LED+") (footprint "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061430bd3"
+      (reference "H12") (unit 1) (value "LED-") (footprint "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-00006140a915"
+      (reference "H13") (unit 1) (value "PEDAL_IN") (footprint "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-00006141d1a8"
+      (reference "H14") (unit 1) (value "PEDAL_OUT") (footprint "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-00006142f6d9"
+      (reference "H15") (unit 1) (value "LED+") (footprint "pedal-component-footprint:PinHeader_1x01_P2.54mm_Long_Front_Back")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418b82"
+      (reference "Q1") (unit 1) (value "Q_NPN_CBE") (footprint "pedal-component-footprint:Transistor_TO-5_CBE_d10.1mm_2")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418b88"
+      (reference "Q2") (unit 1) (value "Q_NPN_CBE") (footprint "pedal-component-footprint:Transistor_TO-5_CBE_d10.1mm_2")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418b97"
+      (reference "R1") (unit 1) (value "100K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418bcd"
+      (reference "R2") (unit 1) (value "470") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418b8e"
+      (reference "RV1") (unit 1) (value "100K") (footprint "MBv3 potentiometers:Trim_Multi_turns")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418bbd"
+      (reference "RV2") (unit 1) (value "100K") (footprint "MBv3 potentiometers:Trim_Multi_turns")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418ba7"
+      (reference "RV3") (unit 1) (value "B1K") (footprint "MBv3 potentiometers:16MM_B.MOUNT_BANZAI")
+    )
+    (path "/00000000-0000-0000-0000-00006140a369/00000000-0000-0000-0000-000061418bf0"
+      (reference "RV4") (unit 1) (value "A500K") (footprint "MBv3 potentiometers:16MM_B.MOUNT_BANZAI")
+    )
+  )
+)
