@@ -1,0 +1,19 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,2.2u,CP_Radial_D5.0mm_P2.50mm,83.505112,-111.0996,0.0,top
+C2,10n,C_Disc_D5.1mm_W3.2mm_P5.00mm,109.0168,-95.5548,-90.0,top
+C3,22u,CP_Radial_D5.0mm_P2.50mm,116.394887,-111.0996,180.0,top
+C4,47u,CP_Radial_D5.0mm_P2.50mm,94.869,-79.756,90.0,top
+D1,LED,LED_D5.0mm,99.949,-87.122,0.0,bottom
+J1,+9v,JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal,103.632,-78.74,180.0,top
+J2,Conn_01x06_Female,PinHeader_1x06_P2.54mm_Vertical,99.949,-110.49,90.0,top
+J4,Conn_01x02_Female,PinHeader_1x02_P2.54mm_Vertical,74.163,-85.852,-90.0,top
+J5,Conn_01x02_Female,PinHeader_1x02_P2.54mm_Vertical,125.989,-85.852,90.0,top
+Q1,Q_NPN_EBC,TO-92L_Inline_Wide,83.566,-101.5056,0.0,top
+Q2,Q_NPN_EBC,TO-92L_Inline_Wide,116.596,-101.5056,0.0,top
+R1,100K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,91.3892,-96.8756,-90.0,top
+R2,Rled,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,97.1484,-96.8756,-90.0,top
+R3,470,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,102.9076,-96.8756,90.0,top
+RV1,100K,Trim_Multi_turns,83.5,-93.0656,180.0,top
+RV2,100K,Trim_Multi_turns,116.5,-93.0656,180.0,top
+RV3,B1K,16MM_B.MOUNT_BANZAI,83.5,-66.461999,0.0,top
+RV4,A500K,16MM_B.MOUNT_BANZAI,116.5,-66.461999,0.0,top

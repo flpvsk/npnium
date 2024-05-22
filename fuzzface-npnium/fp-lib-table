@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "pedal-component-footprint")(type "KiCad")(uri "/Volumes/hdd/Projects/kicad/footprints/pedal-component-footprint.pretty")(options "")(descr ""))
+)
